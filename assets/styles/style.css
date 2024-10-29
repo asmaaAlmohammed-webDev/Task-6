@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color1: rgba(214, 107, 36, 0.764);
+    --primary-color2: #faf0d265;
+}
+
+/* my dimensions (width & height) */
+
+.w-18 {
+    width: 18%;
+}
+
+.text-width {
+    width: 200px;
+}
+
+.width-p {
+    width: 360px;
+}
+
+/* navbar */
+
+.navbar .nav-item .nav-link:hover {
+    color: var(--primary-color1) !important;
+}
+
+.navbar .nav-item .nav-link.active {
+    color: var(--primary-color1) !important;
+}
+
+/* hero section */
+
+.hero {
+    height: 100vh;
+}
+
+.hero .carousel-item .btn {
+    border-color: var(--primary-color1) !important;
+    color: var(--primary-color1) !important;
+    border-radius: 0 !important;
+}
+
+.client {
+    background-color: var(--primary-color2);
+}
+
+.hero .carousel-item img {
+    width: 290px;
+}
+
+
+
+/* featured section */
+
+.featured .card .image {
+    background-color: var(--primary-color2);
+    width: max-content;
+    height: max-content;
+}
+
+.featured .card .image img {
+    width: 130px;
+}
+
+.featured .card .add-cart {
+    top: 70% !important;
+}
+
+.title-sec::before,
+.title-sec::after {
+
+    content: "";
+    display: inline-block;
+    width: 350px;
+    height: .5px;
+    position: absolute;
+    top: 50%;
+    background-color: var(--primary-color2);
+}
+
+.title-sec::after {
+    right: 10px;
+}
+
+.title-sec::before {
+    left: 10px;
+}
+
+/* best-book section */
+
+.best-book {
+    background-color: var(--primary-color2);
+}
+
+.img-best-book {
+    width: 190px;
+}
+
+.div-img-best-book {
+    width: max-content;
+    height: max-content;
+}
+
+
+.title-best-sec1::after,
+.title-best-sec2::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2.5px;
+    position: absolute;
+    top: 110%;
+    background-color: var(--primary-color1);
+
+}
+
+/* popular section */
+
+.active-btn {
+    color: black !important;
+    position: relative;
+}
+
+.active-btn::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2.5px;
+    position: absolute;
+    top: 100%;
+    transform: translateX(90%);
+    background-color: var(--primary-color1);
+}
+
+.popular-books .card-popular .image {
+    background-color: var(--primary-color2);
+    width: max-content;
+    height: max-content;
+}
+
+.popular-books .card-popular .image img {
+    width: 135px;
+}
+
+/* subscribe news section*/
+
+
+.title-subscribe1::after,
+.title-subscribe2::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2.5px;
+    position: absolute;
+    background-color: var(--primary-color1);
+}
+
+.title-subscribe1::after {
+    top: 40%;
+}
+
+.title-subscribe2::after {
+    top: 95%;
+}
+
+.subscribe-news {
+    background-color: var(--primary-color2);
+}
+
+.subscribe-news .content {
+    border-color: black !important;
+}
+
+/* footer */
+
+footer .name-design {
+    color: var(--primary-color1);
+}
+
+/* media query */
+
+@media (max-width: 1200px) {
+
+    .title-sec::before,
+    .title-sec::after {
+        display: none;
+    }
+
+    .active-btn::after {
+        transform: translateX(60%);
+    }
+}
+
+@media (max-width:991px) {
+    .hero .carousel-item img {
+        object-fit: contain;
+        height: 230px;
+
+    }
+
+    footer .col1 {
+        padding-left: 70px !important;
+    }
+
+    footer .logo {
+        width: 230px;
+    }
+
+    footer .icons {
+        margin-left: 130px;
+    }
+
+    .active-btn::after {
+        transform: translateX(80%);
+    }
+}
+
+@media(max-width:440px) {
+    .navbar .navbar-toggler {
+        width: 45px;
+        padding: 5px;
+    }
+
+    .navbar .logo {
+        width: 120px;
+    }
+
+    footer .logo {
+        width: 120px;
+    }
+
+    .width-p {
+        width: 220px;
+
+    }
+
+    .active-btn::after {
+        transform: translateX(30%);
+    }
+}
+
+@media(min-width: 330px) and (max-width: 360px) {
+    .text-width {
+        width: 150px;
+    }
+}

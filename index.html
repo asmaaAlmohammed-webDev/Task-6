@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-6</title>
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- css file -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg position-fixed top-0 z-3 border-bottom w-100 bg-white">
+            <div class="container-fluid p-3">
+                <img src="./assets/images/images/logo.png" alt="logo" class="logo " />
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <p class=" d-lg-none d-md-none d-inline-block text-uppercase ">menu</p>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item text-warning-emphasis">
+                            <a class="nav-link active text-warning-emphasis text-uppercase" aria-current="page"
+                                href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning-emphasis text-uppercase" href="#featured">Featured</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning-emphasis text-uppercase" href="#popular">Popular</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- hero -->
+        <section class="hero" id="home">
+            <div class="container-fluid my-5 ">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner p-5 ">
+                        <div class="carousel-item active ">
+                            <div class="row justify-content-center flex-md-row flex-column-reverse  my-5 ">
+                                <div class="content-hero col-lg-6 col-md-4 col-12  ">
+
+                                    <h1 class="text-width ">Life Of The Wild</h1>
+                                    <p class="width-p text-light-emphasis">Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing
+                                        elit.
+                                        Tempora
+                                        fuga
+                                        iusto illum
+                                        earum
+                                        reprehenderit corrupti mollitia eaque in enim ducimus nemo facere sequi
+                                        dolor
+                                        nemo
+                                        facere sequi .
+                                    </p>
+                                    <button type="button" class="btn btn-outline-secondary text-uppercase my-5 ">read
+                                        more
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+                                <img src="./assets/images/images/main-banner1.jpg" class=" col-lg-6 col-md-4 col-12  "
+                                    alt="book-hero">
+
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row  justify-content-center flex-md-row flex-column-reverse my-5">
+                                <div class="content-hero col-lg-6 col-md-4 col-12">
+                                    <h1 class="text-width">Life Of The Wild</h1>
+                                    <p class="width-p text-light-emphasis">Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing
+                                        elit.
+                                        Tempora
+                                        fuga
+                                        iusto illum
+                                        earum
+                                        reprehenderit corrupti mollitia eaque in enim ducimus nemo facere sequi
+                                        dolor
+                                        nemo
+                                        facere sequi .
+                                    </p>
+                                    <button type="button" class="btn btn-outline-secondary text-uppercase my-5">read
+                                        more
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <img src="./assets/images/images/main-banner2.jpg" class="col-lg-6 col-md-4 col-12"
+                                    alt="book-hero">
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <i class="fa-solid fa-arrow-left text-light-emphasis border rounded-circle p-3"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <i class="fa-solid fa-arrow-right text-light-emphasis border rounded-circle p-3"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- client -->
+        <section class="client ">
+            <div class="container p-5 d-flex justify-content-center align-items-center flex-wrap gap-5">
+                <img src="./assets/images/images/client-image1.png" class=" " alt="book">
+                <img src="./assets/images/images/client-image2.png" class="" alt="flaprise">
+                <img src="./assets/images/images/client-image3.png" class=" " alt="book-store">
+                <img src="./assets/images/images/client-image4.png" class=" " alt="book-door">
+                <img src="./assets/images/images/client-image5.png" class=" " alt="library">
+            </div>
+        </section>
+        <!-- featured -->
+        <section class="featured" id="featured">
+            <div class="container p-5">
+                <p class="text-uppercase text-center text-body-tertiary">some quality items</p>
+                <h3 class="title-sec position-relative text-center">Featured Books</h3>
+                <span class="border-top d-lg-none d-md-block d-block"></span>
+                <div class="cards row mx-auto "></div>
+                <span class="border-top d-lg-none d-md-block d-block"></span>
+                <p class="d-flex justify-content-end align-items-center my-3">View All Products<i
+                        class="fa-solid fa-arrow-right mx-3 "></i></p>
+            </div>
+        </section>
+        <!-- best selling book -->
+        <section class="best-book">
+            <div class="container p-5">
+                <div class="book row justify-content-center">
+                </div>
+            </div>
+        </section>
+        <!-- popular book -->
+        <section class="popular-books" id="popular">
+            <div class="container p-5">
+                <p class="text-uppercase text-center text-body-tertiary">some quality items</p>
+                <h3 class="title-sec text-center">Popular Books</h3>
+                <span class="border-top d-lg-none d-md-block d-block"></span>
+                <div class="row justify-content-center my-5">
+                    <button class="btn-tab bg-body border-0 col-lg-2 col-md-4 col-6 text-secondary ">All
+                        Genre</button>
+                    <button class="btn-tab bg-body border-0 col-lg-2 col-md-4 col-6 text-secondary">Business</button>
+                    <button class="btn-tab bg-body border-0 col-lg-2 col-md-4 col-6 text-secondary">Technology</button>
+                    <button class="btn-tab bg-body border-0 col-lg-2 col-md-4 col-6 text-secondary">Romantic</button>
+                    <button class="btn-tab bg-body border-0 col-lg-2 col-md-4 col-6 text-secondary">Adventure</button>
+                    <button class="btn-tab bg-body border-0 col-lg-2 col-md-4 col-6 text-secondary">Fictional</button>
+                </div>
+                <div class="cards-popular row mx-auto "></div>
+            </div>
+        </section>
+        <!-- subscribe -->
+        <section class="subscribe-news">
+            <div class="container p-5">
+                <div class="row justify-content-center">
+                    <h3
+                        class="title-subscribe1 position-relative d-lg-block d-md-block d-none w-18 col-lg-3 col-md-6 col-12 mx-3">
+                        Subscribe To Our Newsletter</h3>
+                    <h3
+                        class="title-subscribe2 position-relative d-lg-none d-md-none d-block col-lg-3 col-md-6 col-12 mx-3  ">
+                        Subscribe
+                        To
+                        Our Newsletter</h3>
+                    <!-- <span class="border-top d-block"></span> -->
+                    <div class="content col-lg-4 col-md-6 col-12 border-bottom">
+                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipi, Maxime dolorum temporibus
+                            necessitatibus
+                            unde modi repellendus officiis quasi labore pariatur, </p>
+                        <p class="my-5">Enter your email address her<strong class="mx-3 ">SEND <i
+                                    class="fa-solid fa-paper-plane"></i></strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+
+    <footer>
+        <div class="container p-5">
+            <div class="row justify-content-center border-bottom my-5">
+                <div class="col-lg-3 col1">
+                    <img src="./assets/images/images/logo.png" alt="logo" class="logo" />
+                    <p class=" my-5 lh-lg text-light-emphasis text-center">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa necessitatibus nihil eligendi,
+                        numquam, consectetur libero voluptas error nesciunt temporibus ratione nesciunt nesciunt.
+                    </p>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <h5 class="mb-5">About Us</h5>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">vision</a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black">articles </a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">careers</a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black">service terms</a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">donate</a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <h5 class="mb-5">Discover</h5>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">Home</a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black">Books </a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">Authors</a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black">Subjects</a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">Advanced
+                        Search</a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <h5 class="mb-5">My Account</h5>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">Sign in </a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black">View Cart </a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">My
+                        Wishtlist</a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black">Track My Order</a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <h5 class="mb-5">Help</h5>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">Help center</a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black">Report a problem
+                    </a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black my-3">Suggesting
+                        edits</a>
+                    <a href="#" class=" link-underline link-underline-opacity-0 d-block text-black">Contact us</a>
+                </div>
+            </div>
+            <div class="pt-5 d-md-flex justify-content-between align-items-center ">
+                <p class="mt-5">© 2022 All rights reversed. Free HTML Templete by <a href="#"
+                        class="link-underline link-underline-opacity-0 name-design">TemplatesJungle</a></p>
+                <div class="icons d-flex gap-3">
+                    <a href="#" class="text-black"><i class="fa-brands fa-facebook-f "></i></a>
+                    <a href="#" class="text-black"><i class="fa-brands fa-twitter "></i></i></a>
+                    <a href="#" class="text-black"><i class="fa-brands fa-youtube"></i></i></a>
+                    <a href="#" class="text-black"><i class="fa-brands fa-square-behance"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js bootstrap link -->
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
